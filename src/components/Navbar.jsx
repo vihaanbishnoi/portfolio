@@ -1,3 +1,8 @@
+/*dark/light mode toggle button*/
+/*Improve Navigation bar 
+    1. Center the nav bar
+    2. Delete extra space (blur and transparent background)
+    Extra:- Animation*/
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -17,15 +22,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6">
         <NavigationMenu>
           <NavigationMenuList className="flex items-center justify-between w-full py-4">
-            <NavigationMenuItem>
-              <NavigationMenuLink className="text-white font-bold text-xl">
-                
-              </NavigationMenuLink>
-            </NavigationMenuItem>
-            
             <div className="flex space-x-8">
               <NavigationMenuItem>
-                <NavigationMenuLink href="#hero" className="text-white hover:text-purple-400">
+                <NavigationMenuLink href="#" className="text-white hover:text-purple-400">
                   Home
                 </NavigationMenuLink>
               </NavigationMenuItem>

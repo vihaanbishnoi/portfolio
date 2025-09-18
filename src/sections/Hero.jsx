@@ -1,6 +1,5 @@
 import React from 'react'
 import LiquidEther_H from '../components/LiquidEther_H';
-import Navbar from '../components/Navbar';
 
 const Hero = () => {
   return (

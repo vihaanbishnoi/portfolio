@@ -1,3 +1,4 @@
+/*education, work experience, skills*/
 import React from 'react'
 
 const About = () => {
