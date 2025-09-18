@@ -118,12 +118,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-/* Custom classes */
-.liquid-ether-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  touch-action: none;
-}
